@@ -1,0 +1,5 @@
+/application.conf
+/controllers/
+/logback.xml
+/models/
+/routes

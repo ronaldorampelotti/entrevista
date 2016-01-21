@@ -30,5 +30,9 @@ public class Application extends Controller {
     	}
     	return ok(Json.toJson(listaPessoas));
     }
+    
+    public Result testeMudanca() {
+    	return ok("FUNCIONA");
+    }
 
 }

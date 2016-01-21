@@ -10,3 +10,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 # Web services
 GET     /pessoas					controllers.Application.pessoas()
+GET		/tst						controllers.Application.testeMudanca()
