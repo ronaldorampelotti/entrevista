@@ -2,7 +2,13 @@ package models;
 
 import java.util.Date;
 
-public class Pessoa {
+import javax.persistence.*;
+
+import com.avaje.ebean.Model;
+
+@Entity
+@Table(name="PESSOA")
+public class Pessoa extends Model{
 	
 	private String nome;
 	
