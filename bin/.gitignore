@@ -1,2 +1,6 @@
+/application.conf
 /controllers/
+/evolutions/
+/logback.xml
 /models/
+/routes
