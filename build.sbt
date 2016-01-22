@@ -2,7 +2,7 @@ name := """TesteEntrevista"""
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayJava, PlayEbean)
+lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
 scalaVersion := "2.11.6"
 
@@ -11,8 +11,6 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
-
-libraryDependencies += "org.postgresql" % "postgresql" % "9.4.1207"
 
 
 
