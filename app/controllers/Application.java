@@ -32,7 +32,15 @@ public class Application extends Controller {
     }
     
     public Result testeMudanca() {
+    	Pessoa pitch = new Pessoa();
+    	
+    	pitch.setNome("BULLSHIIT");
+    	
+    	pitch.insert();
+    	
+    	
     	return ok("FUNCIONA");
+    	
     }
 
 }
